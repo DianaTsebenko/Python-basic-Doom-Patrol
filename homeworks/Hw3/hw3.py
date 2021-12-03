@@ -178,9 +178,9 @@ print(lst)
 # 23
 list_A = [2, 3, 4]
 list_B = [5, 6, 7]
-list_AB = list(map(lambda x, y: x + y, list_A, list_B))
+list_AB = list(map(lambda x, y: x ** y, list_A, list_B))
 print(list_AB)
-# [7, 9, 11]
+# [32, 729, 16384]
 
 
 # 24
