@@ -88,7 +88,7 @@ class City:
             print(f"{self.name} is so small city")
 
 
-Lviv = City('Lviv', 28000)
+Lviv = City('Lviv', 25000)
 Holovetske = City('Holovetske', 1000)
 Rivne = City('Rivne', 20000)
 
