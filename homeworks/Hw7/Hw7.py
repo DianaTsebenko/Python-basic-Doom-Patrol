@@ -1,3 +1,4 @@
+import random
 from abc import ABC, abstractmethod
 
 stages = {0: 'None', 1: 'Flowering', 2: 'Green', 3: 'Red'}
@@ -200,8 +201,8 @@ class Pests:
         del self
 
 
-apple_tree = AppleTree(3, 2)
-tomato_bush = TomatoBush(4, 2)
+apple_tree = AppleTree(3, random.randint(0, 3))
+tomato_bush = TomatoBush(4, random.randint(0, 4))
 print(tomato_bush.all_tomatoes)
 print(apple_tree.all_apples)
 
