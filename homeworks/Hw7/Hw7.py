@@ -201,8 +201,8 @@ class Pests:
         del self
 
 
-apple_tree = AppleTree(3, random.randint(0, 3))
-tomato_bush = TomatoBush(4, random.randint(0, 4))
+apple_tree = AppleTree(3, random.randint(0, 4))
+tomato_bush = TomatoBush(4, random.randint(0, 5))
 print(tomato_bush.all_tomatoes)
 print(apple_tree.all_apples)
 
