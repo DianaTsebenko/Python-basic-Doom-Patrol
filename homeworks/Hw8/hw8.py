@@ -1,9 +1,9 @@
 print("Calculator")
 print("Enter your example \n")
 
-x = float(input("x = "))
+x = int(input("x = "))
 symbol = input("Symbol (+,-,*,/): ")
-y = float(input("y = "))
+y = int(input("y = "))
 if symbol in ('+', '-', '*', '/'):
     if symbol == '+':
         c = x + y
