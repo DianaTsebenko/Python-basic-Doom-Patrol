@@ -1,0 +1,16 @@
+INFO:root:User Add
+CRITICAL:root:JSONDecodeError
+INFO:root:Search
+WARNING:root:somebody want to choose a letter!
+INFO:root:Search
+INFO:root:Get All!INFO:root:User Add
+CRITICAL:root:File Not Found Error!!!
+INFO:root:Get All!
+INFO:root:Search
+WARNING:root:User trying to search query which not in fields list
+INFO:root:Update!
+INFO:root:Get All!
+INFO:root:Search
+INFO:root:User Add
+INFO:root:User Add
+INFO:root:User Add
