@@ -18,10 +18,6 @@ class FunctionsTest(unittest.TestCase):
             fft.div(12, 0)
         except ZeroDivisionError:
             self.assertEqual(0, 0)
-        try:
-            fft.div(29, 0)
-        except ZeroDivisionError:
-            self.assertEqual(0, 0)
         self.assertEqual(fft.div(5, 2), 2.5)
         self.assertNotEqual(fft.div(6, 4), 64)
         self.assertEqual(fft.div(200, 100), 2)
