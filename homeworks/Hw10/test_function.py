@@ -14,6 +14,10 @@ class FunctionsTest(unittest.TestCase):
         self.assertEqual(fft.dif(140, 149), -9)
 
     def test_div(self):
+        try:
+            fft.div(13, 0)
+        except ZeroDivisionError:
+            self.assertEqual(0, 0)
         self.assertEqual(fft.div(5, 2), 2.5)
         self.assertNotEqual(fft.div(6, 4), 64)
         self.assertEqual(fft.div(200, 100), 2)
