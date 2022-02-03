@@ -33,7 +33,7 @@ def check_user_exists(user_info, user):
     return False
 
 
-def add_user(user):
+def check(user):
     try:
         read_file = open('user_info.json', 'r')
     except FileNotFoundError:
@@ -58,4 +58,4 @@ def add_user(user):
 if __name__ == "__main__":
     new_user = {}
     user_add(new_user)
-    add_user(new_user)
+    check(new_user)

@@ -1,0 +1,15 @@
+Index: homeworks/HW10/test_functions.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import unittest\nimport functions_for_testing as fft\n\n\nclass FunctionsTest(unittest.TestCase):\n    def test_suma(self):\n        self.assertEqual(fft.suma(4, 5), 9)\n        self.assertNotEqual(fft.suma(3, 4), 6)\n        self.assertEqual(fft.suma(100, 150), 250)\n\n    def test_dif(self):\n        self.assertEqual(fft.dif(5, 1), 4)\n        self.assertNotEqual(fft.dif(3, 4), 1)\n        self.assertEqual(fft.dif(140, 149), -9)\n\n    def test_div(self):\n        try:\n            fft.div(15, 0)\n        except ZeroDivisionError:\n            self.assertEqual(0, 0)\n        self.assertEqual(fft.div(5, 2), 2.5)\n        self.assertNotEqual(fft.div(6, 4), 64)\n        self.assertEqual(fft.div(200, 100), 2)\n\n    def test_multiple(self):\n        self.assertEqual(fft.multiple(5, 2), 10)\n        self.assertNotEqual(fft.multiple(6, 4), 11)\n        self.assertEqual(fft.multiple(200, 100), 20000)
+===================================================================
+diff --git a/homeworks/HW10/test_functions.py b/homeworks/HW10/test_functions.py
+--- a/homeworks/HW10/test_functions.py	
++++ b/homeworks/HW10/test_functions.py	
+@@ -25,4 +25,4 @@
+     def test_multiple(self):
+         self.assertEqual(fft.multiple(5, 2), 10)
+         self.assertNotEqual(fft.multiple(6, 4), 11)
+-        self.assertEqual(fft.multiple(200, 100), 20000)
+\ No newline at end of file
++        self.assertEqual(fft.multiple(200, 100), 20000)
