@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88562153-4672-497a-bd64-30fd4153d082" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/database/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/test_user_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/test_user_functions_pytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/user_app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw11/user_functions.py" afterDir="false" />
+    <list default="true" id="88562153-4672-497a-bd64-30fd4153d082" name="Changes" comment="homework 11 done">
+      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/items_kyrtky.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/parsing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +24,7 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="hw11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +65,7 @@
       <recent name="$PROJECT_DIR$/homeworks/Hw14" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="Hw14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,27 +100,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hw2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-basic-Doom-Patrol" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw15" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw15/hw2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,6 +150,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-basic-Doom-Patrol" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw18" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw18/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python-basic-Doom-Patrol" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="parsing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-basic-Doom-Patrol" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw18" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw15/multithreading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw18/parsing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.parsing" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.Hw14" />
         <item itemvalue="Python.test_pytest" />
-        <item itemvalue="Python.multithreading" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643918596736</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="homework 11 done">
+      <created>1643922245790</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1643922245790</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,6 +603,7 @@
     <MESSAGE value="homework 14 finish" />
     <MESSAGE value="done" />
     <MESSAGE value="homework 14 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 14 done" />
+    <MESSAGE value="homework 11 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 11 done" />
   </component>
 </project>
