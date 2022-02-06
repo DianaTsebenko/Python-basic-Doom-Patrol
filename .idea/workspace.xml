@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88562153-4672-497a-bd64-30fd4153d082" name="Changes" comment="homework 11 done">
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/items_kyrtky.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Hw18/parsing.py" afterDir="false" />
+    <list default="true" id="88562153-4672-497a-bd64-30fd4153d082" name="Changes" comment="homework 18 done">
+      <change afterPath="$PROJECT_DIR$/homeworks/Hw16/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/Hw16/task_2b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +22,7 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw11" />
+        <entry key="$PROJECT_DIR$" value="hw18" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,28 +63,7 @@
       <recent name="$PROJECT_DIR$/homeworks/Hw14" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="Hw14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw14" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw14/Hw14.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task_2b">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Python-basic-Doom-Patrol" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_pytest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-basic-Doom-Patrol" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,11 +198,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw10/test_pytest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw16/task_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_2b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-basic-Doom-Patrol" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/Hw16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/Hw16/task_2b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_2b" />
+        <item itemvalue="Python.task_1" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.parsing" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.Hw14" />
-        <item itemvalue="Python.test_pytest" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643922245790</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="homework 18 done">
+      <created>1644172781572</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644172781573</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,6 +609,7 @@
     <MESSAGE value="done" />
     <MESSAGE value="homework 14 done" />
     <MESSAGE value="homework 11 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 11 done" />
+    <MESSAGE value="homework 18 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 18 done" />
   </component>
 </project>
